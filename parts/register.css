@@ -1,0 +1,145 @@
+.content{
+
+
+
+    color:rgb(27, 27, 26);
+    text-decoration: none;
+    width:100%;
+    background: rgb(227,221,221);
+    background: linear-gradient(0deg, rgba(227,221,221,1) 0%, rgba(245,163,163,1) 2%, rgba(251,83,83,1) 3%, rgba(251,117,100,1) 97%, rgba(196,196,200,1) 99%);
+    float: left;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height:50px;
+}
+
+
+h1{
+    //background-color: #ff4d4d;
+    font-style: italic;
+    padding-top:10px;
+    padding-left:190px;
+    
+    margin-left:700px;
+    margin-top:70px;
+    width:250px;
+}
+#pwd{
+    width:300px;
+    outline:0;
+    padding:10px
+    border:3px groove;
+    height:35px;
+    padding-bottom:5px; 
+}
+#cpwd{
+    width:300px;
+    outline:0;
+    padding:10px
+    border:3px groove;
+    height:35px;
+    padding-bottom:5px;
+}
+#name{
+    width:300px;
+    outline:0;
+    padding:10px
+    border:3px groove;
+    height:35px;
+    padding-bottom:5px;
+}
+button{
+    height:40px;
+    width:90px;
+    margin-left: 111px;
+}
+ch {
+    width:300px;
+    outline:0;
+    border:3px groove;
+    height:35px;
+}
+#first{
+    width:140px;
+    outline:0;
+    padding:10px
+    border:3px groove;
+    height:35px;
+}
+#last{
+    width:140px;
+    outline:0;
+    padding:10px
+    border:3px groove;
+    height:35px;
+}
+.quote{
+    float:left;
+    
+}
+img{
+    width:550px;
+    margin-top:0px;
+    height:455px;
+    position:fixed;
+    top:80px;
+    left:100px;
+    
+}
+.register{
+    width:45%;
+    //margin-top:50px;
+    margin-top:0px;
+    margin-left:780px;
+
+    }
+#reg{
+    width:60%;
+    //margin:auto;
+    margin-left:10px;
+    margin-top:0;
+}
+label{
+    font-size:20px;
+    color:black;
+
+}
+ul li{
+    display: inline;
+    padding-right: 10px;
+}
+ul li ul li {
+    margin-left: 248px;
+    display:none;
+
+}
+ul li:hover ul li{
+    display:block;
+    padding-bottom: 10px;
+    background-color: black;
+    
+    width:90px;
+    padding-left: 10px;
+}
+/*
+body{
+    //background-image:url(../img/bd5.jpg);
+    background-repeat: no-repeat;
+    //background-size: 75% 900px;
+    background-size: 100% 1200px;
+    background-image:url(../img/bd6.jpg);
+}*/
+
+a{
+    color: #e3e3e3;
+    text-decoration: none;
+}
+
+ul a:hover{
+    text-decoration: underline;
+    color:steelblue;
+}
+#register a{
+    color:rgb(24, 23, 23);
+}

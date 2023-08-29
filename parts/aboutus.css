@@ -1,0 +1,95 @@
+.content{
+
+
+    color:rgb(27, 27, 26);
+    text-decoration: none;
+    width:1300px;
+    background-color: rgb(245, 107, 107);
+    float: left;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height:50px;
+}
+ 
+
+
+#name{
+    width:300px;
+    outline:0;
+    padding:10px
+    border:3px groove;
+    height:35px;
+}
+#qts{
+    width:180px;
+    outline:0;
+    padding:10px
+    border:3px groove;
+    height:35px;
+}
+textarea{
+    height:83px;
+    width:309px;
+}
+button{
+    height:40px;
+    width:90px;
+    margin-left: 111px;
+}
+button:hover{
+    background-color: steelblue;
+}
+.about{
+    width:45%;
+    margin-top:70px;
+    margin-left:370px;
+    background-color: rgb(0,0,0,0.4);
+}
+#ab{
+    width:60%;
+    margin:auto;
+}
+h1{
+    text-align: center;
+    font-style: italic;
+    padding-top:45px;
+}
+ul li{
+    display: inline;
+    padding-right: 10px;
+}
+ul li ul li {
+    margin-left: 248px;
+    display:none;
+
+}
+ul li ul li a {
+    color:#e3e3e3;
+}
+ul li:hover ul li{
+    display:block;
+    padding-bottom: 10px;
+    background-color: black;
+    
+    width:90px;
+    padding-left: 10px;
+}
+body{
+    background-image:url(../img/bd6.jpg);
+    background-repeat: no-repeat;
+    background-size: 280% 900px;
+}
+
+a{
+    color: #e3e3e3;
+    text-decoration: none;
+}
+#aboutus a{
+    color:black;
+}
+ul a:hover{
+    text-decoration: underline;
+    color:steelblue;
+}
+
